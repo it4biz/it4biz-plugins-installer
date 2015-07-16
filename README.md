@@ -17,7 +17,10 @@ This readme text and the it4biz-plugins-installer.sh was adapted from the origin
 
 Example:
 
+```
 git clone https://github.com/it4biz/it4biz-plugins-installer.git
 sudo ./it4biz-plugins-installer.sh -s /Applications/Pentaho/BIServer/biserver-ce-5.4/biserver-ce/pentaho-solutions/ -w /Applications/Pentaho/BIServer/biserver-ce-5.4/biserver-ce/tomcat/webapps/pentaho -b dev --no-update -c saikuchartplus
+```
+
 
 
