@@ -19,8 +19,13 @@ Example:
 
 ```
 git clone https://github.com/it4biz/it4biz-plugins-installer.git
+cd it4biz-plugins-installer
 chmod +x it4biz-plugins-installer.sh
+sudo ./it4biz-plugins-installer.sh -s /opt/pentaho/biserver-ce/pentaho-solutions/ -w /opt/pentaho/biserver-ce/tomcat/webapps/pentaho -b dev --no-update -c saikuchartplus
+
+
 sudo ./it4biz-plugins-installer.sh -s /Applications/Pentaho/BIServer/biserver-ce-5.4/biserver-ce/pentaho-solutions/ -w /Applications/Pentaho/BIServer/biserver-ce-5.4/biserver-ce/tomcat/webapps/pentaho -b dev --no-update -c saikuchartplus
+
 ```
 
 
