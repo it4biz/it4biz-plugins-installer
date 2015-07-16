@@ -18,6 +18,7 @@ This readme text and the it4biz-plugins-installer.sh was adapted from the origin
 Example:
 
 ```
+sudo apt-get install zip
 git clone https://github.com/it4biz/it4biz-plugins-installer.git
 cd it4biz-plugins-installer
 chmod +x it4biz-plugins-installer.sh
